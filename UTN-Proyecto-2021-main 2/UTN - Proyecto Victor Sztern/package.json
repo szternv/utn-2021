@@ -1,0 +1,39 @@
+{
+  "name": "victoria-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon src/main.js --exec babel-node",
+    "build": "babel src -d dist",
+    "start": "node dist"
+  },
+  "author": "Victoria Sztern",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/register": "^7.16.0",
+    "cookieparser": "^0.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "hbs": "^4.1.2",
+    "md5": "^2.3.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "node-gyp": "^8.4.1",
+    "nodemailer": "^6.7.1",
+    "powershell": "^2.3.2",
+    "rebuild": "^0.1.2",
+    "util": "^0.12.4",
+    "xoauth2": "^1.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "nodemon": "^2.0.14"
+  }
+}

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>{{title}}</title>
+  <link rel='stylesheet' href='/css/style.css' />
+  <meta charset="utf-8">
+  <meta name="viewport" user-scalable="no" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Host</title>
+  <link href="https://fonts.googleapis.com/css2?family=BioRhyme&display=swap" rel="stylesheet">
+  <script src=" https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+  {{{body}}}
+  <header>
+    <section id="menu">
+      <div class="menu">
+        <div class="contenedor">
+          <p class="logo">English Made Easy</p>
+          <nav>
+            <ul>
+              <li><a>Home</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <section id="aprender" data-aos="fade-up">
+      <div class="contenedor">
+        <div class="contenedor-inicio">
+          <div class="titular">
+            <h1>Aprender inglés,<br> hecho fácil</h1>
+            <p class="ed">Tu educación es la mejor inversión.</p>
+            <a class="boton" href="#empieza">EMPIEZA A APRENDER</a>
+          </div>
+          <div class="imagen">
+            <img src="images/education.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+
+
+  <section id="empieza" data-aos="fade-up">
+    <div class="wrap">
+      <ul class="tabs">
+        <li><a href="#tab1"><span class="tab-text">Sobre nosotros</span></a></li>
+        <li><a href="#tab2"><span class="tab-text">Novedades</span></a></li>
+        <li><a href="#tab3"><span class="tab-text">Aprender</span></a></li>
+        <li><a href="#tab4"><span class="tab-text">Contacto</span></a></li>
+      </ul>
+
+      <div class="secciones">
+        <article id="tab1">
+          <h1>Home</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</P>
+        </article>
+        <article id="tab2">
+          <h1>Novedades</h1>
+
+          <div class="fil">
+            <div class="col">
+              <table class="table">
+                <button type="button" id='AgregarNovedad' class="btn btn-dark">Nuevo</button>
+
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Titulo</th>
+                    <th scope="col">Acciones</th>
+                  </tr>
+                </thead>
+                <div >
+
+                  <tbody id="TablaNovedades">
+
+                  </tbody>
+                </div>
+
+              </table>
+
+
+
+            </div>
+          </div>
+        </article>
+        <article id="tab3">
+          <h1>Home</h1>
+          <p>Lllorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</P>
+        </article>
+        <article id="tab4">
+          <form id="FormContact">
+            <ul>
+              <li>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name">
+              </li>
+              <li>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="user_email">
+              </li>
+              <li>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </li>
+            </ul>
+            <li class="button">
+              <button type="submit">Send your message</button>
+            </li>
+          </form>
+        </article>
+      </div>
+  </section>
+
+  <section id="Servicios" data-aos="fade-up">
+    <div class="contenedor">
+      <div class="titular">
+        <h2> Nuestros servicios </h2>
+        <h3>En ENGLISH MADE EASY tenemos un incansable compromiso con la educación efectiva, de calidad y al alcance de
+          todos. </h3>
+        <a class="boton" href=""> TODOS LOS SERVICIOS </a>
+      </div>
+
+
+
+      <div class="contenedor-servicios-2">
+        <div class="service" id="uno">
+          <img src="images/books.png" id="libro" alt="">
+          <h4> Clases individuales y grupales</h4>
+          <p> Clases hechas a tu medida, con un programa único 100% adaptado a tus necesidades y objetivos. </p>
+          <a href="">CLICK AQUÍ</a>
+        </div>
+
+      </div>
+    </div>
+    <div class="serviciof">
+      <div class="service" id="dos">
+        <img src="images/world.png" id="mundo" alt="">
+        <h4> Taller de conversación </h4>
+        <p> Mejora tus habilidades orales y gana confianza al hablar discutiendo tópicos de interés. </p>
+        <a href="">CLICK AQUÍ</a>
+      </div>
+      <div class="service" id="tres">
+        <img src="images/qa.png" id="trad" alt="">
+        <h4> Traducciones </h4>
+        <p> Expande tus proyectos a otros idiomas y muéstrale tu trabajo al mundo. </p>
+        <br>
+        <a href="">CLICK AQUÍ</a>
+      </div>
+
+      <div class="service" id="cuatro">
+        <img src="images/guy.png" id="dude" alt="">
+        <h4> Inserción laboral </h4>
+        <p> Te preparamos para desempeñarte profesionalmente en inglés. Confeccionamos tu CV y te ayudamos con las
+          entrevistas. </p>
+        <a href="">CLICK AQUÍ</a>
+      </div>
+
+
+
+    </div>
+
+
+  </section>
+  <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="closeX">&times;</span>
+              <form id="FormNovedades">
+            <ul>
+              <li>
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo" name="nov_titulo">
+              </li>
+              <li>
+                <label for="subtitulo">Subtitulo:</label>
+                <input type="text" id="subtitulo" name="nov_subtitulo">
+              </li>
+              <li>
+                <label for="cuerpo">Cuerpo:</label>
+                <textarea type="text" id="cuerpo" name="nov_cuerpo"></textarea>
+              </li>
+            </ul>
+            <li class="button">
+              <button id="submitNovedad" type="submit">Enviar noticia</button>
+            </li>
+          </form>
+  </div>
+
+</div>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+  </script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

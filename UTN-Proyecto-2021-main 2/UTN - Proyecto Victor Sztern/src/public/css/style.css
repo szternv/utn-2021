@@ -1,0 +1,381 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'BioRhyme', serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #E8FFFD;
+}
+form {
+
+  margin: 0 auto;
+  width: 500px;
+
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+
+  font: 1em sans-serif;
+
+  width: 300px;
+  box-sizing: border-box;
+
+
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+
+  border-color: #000;
+}
+
+textarea {
+
+  vertical-align: top;
+
+  height: 5em;
+}
+
+.button {
+
+  padding-left: 90px;
+}
+
+button {
+
+  margin-left: .5em;
+}
+
+.eme{
+  font-family: "Zen Kurenaido";
+  text-align: center;
+}
+
+.wrap{
+
+  width: 800px;
+  max-width: 90%;
+  margin: 30px auto;
+}
+
+ul.tabs{
+  width: 95%;
+
+  background: #96B9DD;
+  list-style: none;
+  display: flex;
+}
+
+ul.tabs li{
+  width: 23%;
+}
+
+
+
+ul.tabs li a{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.active{
+  background: #405B76;
+}
+
+.secciones{
+  width: 100%;
+  background: #fff;
+}
+
+.secciones article{
+  padding: 30px;
+}
+
+.secciones article p{
+  text-align: justify;
+}
+
+
+
+@media screen and (max-width: 450px) {
+  ul.tabs li a{
+    padding: 15px 0px;
+  }
+
+    .secciones article{
+      padding: 20xp;
+    }
+}
+
+
+.contenedor{
+  width: 90%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+header{
+  background-image: url(/images/ondas.png), linear-gradient(237deg, #46b3ff 0%, #0752fe 100%);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 920px;
+}
+
+.menu{
+  background: #fff;
+  padding: 9px 20px;
+}
+
+.menu .contenedor{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+header .logo{
+  font-size: 23px;
+  font-weight: bold;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #000;
+
+}
+
+
+header .contenedor-inicio{
+  display: flex;
+  justify-content: center;
+  margin: 9vh 0;
+}
+
+
+header .titular, header .imagen{
+  width: 40%;
+}
+
+header h1{
+  font-family:  'Tarif';
+  font-size: 52px;
+  color: #fff;
+  text-shadow: 1px 2px 50px #000;
+}
+
+header p{
+  line-height: 30px;
+}
+
+.ed{
+    color: #fff;
+}
+
+header img{
+  width: 138%;
+}
+
+.boton{
+  background: #253547;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  box-shadow: 0px 20px 30px 0px rgba(0,0,0,0.5);
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.cursos{
+  display: flex;
+}
+
+.cursos li{
+  list-style: none;
+  margin: 0 20px;
+  margin-top: 5%;
+}
+
+span.curso{
+  color: #000;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+span.mes{
+  color: #999;
+  font-size: 14px;
+}
+
+/* seccion servicios */
+
+#Servicios{
+  padding-top: 120px;
+}
+
+#Servicios .contenedor{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+#Servicios .titular {
+  width: 49%;
+  margin-bottom: 5%;
+
+}
+
+#Servicios .serviciof{
+   display: flex;
+   justify-content: center;
+}
+
+#Servicios .service{
+  margin-top: 3%;
+  padding: 20px 30px;
+  margin-left: 10%;
+  background-color: #fff;
+  box-shadow: 0px 90px 160px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 24px 24px 24px 24px;
+  align-items: center;
+  margin-bottom: 3%;
+}
+
+#mundo{
+  margin-left: 10%;
+}
+#libro{
+  margin-left: 15%;
+}
+#dude{
+  margin-left: 10%;
+}
+#trad{
+  margin-top: 12%;
+  margin-left: 5%;
+}
+
+#Servicios #uno{
+  margin-left: 30%;
+  width: 40%;
+}
+#Servicios #dos{
+  width: 33%;
+}
+#Servicios #tres{
+  width: 33%;
+}#Servicios #cuatro{
+  margin-right: 10%;
+  width: 33%;
+}
+#Servicios h2 {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #ff8f00;
+  letter-spacing: 1px;
+}
+
+#Servicios h3{
+  font-weight: 500;
+  font-size: 30px;
+}
+
+#Servicios .boton{
+  background: #2970fa;
+  padding: 15px 38px;
+  letter-spacing: 1px;
+}
+
+.service h4{
+  font-size: 23px;
+  font-weight: normal;
+}
+
+.service p{
+  color: #787878;
+  font-size: 15px;
+  line-height: 32px;
+}
+
+.service a{
+  color: #2970fa;
+  text-decoration: none;
+}
+
+/*modal*/
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
